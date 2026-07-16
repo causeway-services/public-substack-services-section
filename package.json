@@ -1,0 +1,8 @@
+{
+  "name": "@emsenn/substack",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "emsenn's Letters to the Web — letters emsenn writes for the Web, syndicated onto Substack at https://emsenn.substack.com.",
+  "license": "UNLICENSED"
+}
