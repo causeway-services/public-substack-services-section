@@ -7,7 +7,7 @@
   "options": [
     {
       "label": "substack",
-      "description": "The node seats at lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/substack, package name @emsenn/substack, remote defaulting to emsenn/substack (private) per standing-up-a-node's own default (repo name defaults to the node's basename unless supplied otherwise).",
+      "description": "The node seats at lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/substack, package name @emsweb/substack, remote defaulting to emsenn/substack (private) per standing-up-a-node's own default (repo name defaults to the node's basename unless supplied otherwise).",
       "tradeoffs": "Matches emsenn's own words in the idea ('my substack') and costs nothing further in the requirements line: the already-written requirement's met-when conditions are already committed to exactly this path and this remote name, so ruling for this option means the requirement is realizable as recorded today, with no new requirement needed. The cost is that 'substack' names the third-party syndication platform rather than the product itself ('emsenn's Letters to the Web'); if the letters ever move off Substack, the node's name would misname what it holds."
     },
     {
