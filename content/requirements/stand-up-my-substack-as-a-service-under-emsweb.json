@@ -8,7 +8,7 @@
     {
       "cell": "idea:source-resolves",
       "target": "held",
-      "command": "bash -c 'test -f lib/emsenn/services/board-of-directors/services/executive-office/content/ideas/stand-up-my-substack-as-a-service-under-emsweb.json && jq -e . lib/emsenn/services/board-of-directors/services/executive-office/content/ideas/stand-up-my-substack-as-a-service-under-emsweb.json >/dev/null'",
+      "command": "bash -c 'test -f lib/emsenn/services/561-group/services/board-of-directors/services/executive-office/content/ideas/stand-up-my-substack-as-a-service-under-emsweb.json && jq -e . lib/emsenn/services/561-group/services/board-of-directors/services/executive-office/content/ideas/stand-up-my-substack-as-a-service-under-emsweb.json >/dev/null'",
       "expected-exit": 0
     },
     {
