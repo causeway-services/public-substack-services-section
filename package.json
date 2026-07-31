@@ -7,14 +7,5 @@
   "license": "UNLICENSED",
   "keywords": [
     "sovereign-state-enterprise"
-  ],
-  "x-semiotic-voxel": {
-    "profile": "org.harmonious-union.semiotic-voxel.v1",
-    "owner": "emsweb",
-    "kind": "inert-material",
-    "actor": "urn:ame:substack",
-    "operations": [],
-    "capabilities": [],
-    "package": "@emsweb/substack"
-  }
+  ]
 }
