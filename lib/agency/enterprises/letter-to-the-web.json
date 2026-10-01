@@ -1,0 +1,30 @@
+{
+  "id": "letter-to-the-web",
+  "name": "Letter to the Web",
+  "kind": "market",
+  "entity": "561-group-llc",
+  "faces": "General Web readers and Substack subscribers of the letters emsenn writes for the Web, syndicated at emsenn.substack.com; also the founder-identity lane for the IACI newsletter.",
+  "offices": [
+    "letter-to-the-web-lead"
+  ],
+  "host": "bare-cedar-fog",
+  "takes": {
+    "words": [
+      "letter to the web",
+      "letters to the web",
+      "letters-to-the-web",
+      "letter-to-the-web",
+      "substack"
+    ],
+    "limit": 4
+  },
+  "assesses": {
+    "work": "assessing-letter-to-the-web-demand",
+    "skill": "assess-taken-demand"
+  },
+  "x-provenance": {
+    "recorded-by": "claude-opus-5-5",
+    "recorded-on": "2026-09-30",
+    "source": "561-group-services-section/content/text/documents/articles/notes/2026/09/30/2026-09-30-note-on-micro-enterprises-holding-their-own-work.md"
+  }
+}
