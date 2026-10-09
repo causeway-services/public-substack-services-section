@@ -1,0 +1,11 @@
+{
+  "name": "@emsenn/substack",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "emsenn's Letters to the Web \u2014 letters emsenn writes for the Web, syndicated onto Substack at https://emsenn.substack.com.",
+  "license": "UNLICENSED",
+  "keywords": [
+    "sovereign-state-enterprise"
+  ]
+}
