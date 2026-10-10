@@ -34,6 +34,11 @@
   "from-idea": "emsenn/idea/stand-up-my-substack-as-a-service-under-emsweb",
   "x-provenance": {
     "recorded-by": "requirements-management-team",
-    "recorded-on": "2026-07-16"
+    "recorded-on": "2026-07-16",
+    "sign-cell": {
+      "type": "emsenn/schema/requirement",
+      "mark": "ni:///sha-256;EyHA47N3yPksSFZ4oIqqErdj_Q-qxRIS-DES9-ZU0Rk",
+      "cell": "ni:///sha-256;zKqC9SO0_Kq-ETuNJUzrMJT4LALPrcMBdMxUKds70IQ"
+    }
   }
 }
