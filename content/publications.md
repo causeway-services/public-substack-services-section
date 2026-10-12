@@ -40,79 +40,86 @@ An author's historical essay of **unverified creation date** was recovered from 
 
 An older document named `Draft, Meaningless Labor and Confusion as Crisis Deferral.md` exists in `emsenn/content:triage/old-notes/zeds/doc/post/emsenn/Kolektiva/`. Its historical filename does not establish an *active Substack draft*. **Meaningless labor** is also an open research topic and is not constrained to one essay. Do not populate a publication queue from evocative research topics.
 
-## Public editions with recorded public URLs (partial)
+## Provider-evidenced published editions (partial account inventory)
 
-| Title | Observed published date | Public link | Confidence |
+One **canonical table** replaces the former overlapping three-post table and 53-post
+statistics-email list. Each row identifies a distinct title in a message from
+`no-reply@substack.com`, specifically `Stats for your post "..."`, whose body
+says the post has been published. The email received date is an **upper bound
+on publication time**, not the publication date. A link is recorded **only**
+when separately observed in the earlier ledger. The three dated-link labels
+were previously observed; their present-day visibility and original dates have
+not been rechecked in this reconciliation.
+
+This is neither an authenticated full account export nor an inventory of
+native platform drafts. In particular, public status *at the time of the
+statistics mail* does not prove the post is still public now. The provider
+email ID is a durable retrieval coordinate inside the linked Fastmail account,
+not an invented Substack post identifier. No subscriber addresses are stored.
+A truncated provider subject remains explicitly truncated.
+
+| Post title in provider notice | Latest evidence date (UTC, not publish date) | Provider mail ID | Previously observed URL, if any |
 | --- | --- | --- | --- |
-| A Different System is Not an Alternative | 2026-06-25 | https://emsenn.substack.com/p/a-different-system-is-not-an-alternative | Public article previously verified |
-| Of ducks and illusions | 2020-11-16 | https://emsenn.substack.com/p/of-ducks-and-illusions | Public article previously verified |
-| On decolonizing my Web use | 2020-10-30 (earlier ledger; date needs recheck) | https://emsenn.substack.com/p/on-decolonizing-my-web-use | Earlier ledger; reverify public visibility and date |
+| Post- Is Not a Position | 2026-07-02 | `Sto4uo3N6jcs` | — |
+| A Different System is Not an Alternative | 2026-06-26 | `StoD2LAncqDF` | https://emsenn.substack.com/p/a-different-system-is-not-an-alternative |
+| Order doesn't begin with command | 2026-05-06 | `StpBWHATsOGJ` | — |
+| On white-supremacist COVID-eugenicist queers | 2025-09-25 | `SttSLVlwiEUJ` | — |
+| A Storm Is A Storm Is A Storm | 2025-09-23 | `SttV2jq0eZlF` | — |
+| Storytelling [Stop] Cop City | 2025-09-16 | `SttcnmRazaRs` | — |
+| Citing for Containment | 2025-04-14 | `StwbcaKiaJPF` | — |
+| Governing By Confusion | 2025-04-12 | `StwdTAXK5BMg` | — |
+| The Theory That Survived The War | 2025-04-08 | `StwiDjpdsVDw` | — |
+| Marked Speech, Borrowed Grammar | 2025-04-06 | `Stwl1tx7fH07` | — |
+| Signalgate Caused Signalgate | 2025-04-01 | `StwrAwKH8XiJ` | — |
+| When Power Buys Itself | 2025-03-30 | `StwtQx2y_I1N` | — |
+| Between Care and Control | 2025-03-26 | `StwyRohis6io` | — |
+| The Network Effect | 2025-03-16 | `Stx9bZWApqfg` | — |
+| The Financialization of Persuasion | 2025-03-10 | `StxGpfv2uTco` | — |
+| Historical Parallels on Trump’s Call for Emergenc… (truncated in source) | 2025-03-08 | `StxJYIxCzKaF` | — |
+| Radical Is As Radical Imagines | 2025-03-07 | `StxKbjbxLrtw` | — |
+| Solidarity Erased | 2024-12-11 | `Styz3AE2puwV` | — |
+| Looking for Homes, Old and New | 2024-12-09 | `Stz1O1ZeaCh3` | — |
+| The Nervous Ally | 2024-12-09 | `Stz0f77SA9HV` | — |
+| Now Streaming | 2024-07-18 | `Su0m_FWYGnyB` | — |
+| Moving to Lakota Territory | 2024-02-26 | `Su3X9CuCwJnw` | — |
+| A Broken Election | 2023-12-08 | `Su53NZaAdwU7` | — |
+| Alfredo Bonanno has passed | 2023-12-08 | `Su54--vs6Qcg` | — |
+| Call to Act! Against Asteria | 2023-12-08 | `Su53H4n2wNWk` | — |
+| Getting Better | 2023-12-03 | `Su5A4c2ixMq-` | — |
+| Unmasking the Delusion of COVID Risk Assessment | 2023-11-30 | `Su5Cx--1vm4F` | — |
+| Winter Orientation | 2023-11-15 | `Su5VZjoHH-fZ` | — |
+| "Anarchism must not be criminalized" | 2023-11-10 | `Su5aknVXgCXF` | — |
+| Fall arrives | 2023-11-01 | `Su5m3Y6msigk` | — |
+| Birds Blow Where Winds Blow | 2023-09-14 | `Su6gx0ApYuYV` | — |
+| Brief Update & Resharing Letters | 2023-09-05 | `Su6s-N2wxqms` | — |
+| Landrace Philosophy with InfoPonEmacs | 2023-09-05 | `Su6s-LmTgsgV` | — |
+| COVID Broke America | 2021-09-19 | `SuKaYrxC63Uw` | — |
+| Breaking illusions with math | 2021-02-27 | `SuOWUgKd0AF3` | — |
+| Weekend research: ETFs | 2021-02-14 | `SuOmA-lXwLyN` | — |
+| Morning updates, February 12th, 2021 | 2021-02-13 | `SuOmfsOVBP0c` | — |
+| Green green | 2021-02-12 | `SuOoc9vRqGHF` | — |
+| Look at the markets, Feb 11th, 2021 | 2021-02-12 | `SuOnuQxgtjJZ` | — |
+| Ledgers as a means of hearing past Iktomi's songs | 2021-02-11 | `SuOph0WyLoOB` | — |
+| I'm out to get | 2021-02-10 | `SuOqvaNcZSUB` | — |
+| A shift in praxis, but not purpose | 2021-02-08 | `SuOsMFnMfxQs` | — |
+| Welcome to the New Year | 2021-01-06 | `SuPWEP8taL--` | — |
+| False Profits | 2020-12-06 | `SuQ65JgdW5D7` | — |
+| Thanksgiving | 2020-11-24 | `SuQKfUIYC2Dg` | — |
+| Of ducks and illusions | 2020-11-17 | `SuQTixuzL5o7` | https://emsenn.substack.com/p/of-ducks-and-illusions |
+| On decolonizing my Web use | 2020-10-31 | `SuQoGLarNCQw` | https://emsenn.substack.com/p/on-decolonizing-my-web-use |
+| I touched a nerve | 2020-10-29 | `SuQpquAGoBFc` | — |
+| Y'all've a week | 2020-10-28 | `SuQrHXQJlZEV` | — |
+| Regarding Settlerday | 2020-10-26 | `SuQtjlqf6KMZ` | — |
+| The RIAA isn't our biggest threat | 2020-10-26 | `SuQtn2S0amlN` | — |
+| Settlerday, October 24, 2020 | 2020-10-25 | `SuQuoYNVpNVB` | — |
+| HashUp: Semantic plaintext markup | 2020-10-24 | `SuQwF4De51Tw` | — |
 
-These three are **not** evidence that any of the works above were published. This is deliberately incomplete; the account itself, not a speculative local reconstruction, controls the complete set of public editions.
-
-## Provider-reported publication evidence (Fastmail reconciliation, 2026-10-12)
-
-The following **53 distinct titles** have a matching authentic provider email from `no-reply@substack.com` with subject `Stats for your post "..."`. The sampled full message states that the post has performed "since it was published." This establishes **publication happened on or before the statistics-email date**; it does **not** establish the original publishing day, the currently public URL, whether an edition remains visible, or a native platform-draft state. The search covered available account email matching the exact provider/subject, not the complete Substack account history. **Do not manufacture slugs or backdate release dates**. One email subject itself truncates a long post title and is marked as truncated.
-
-The `Fastmail` column gives the actual mail-item ID, allowing authorized follow-up without recopying whole messages or private audience data. This table is evidence inside the existing ledger—not a second, competing publisher inventory.
-
-| Post title as recorded by publisher | Stats email received (UTC) | Fastmail item |
-| --- | --- | --- |
-| Post- Is Not a Position | 2026-07-02 | `Sto4uo3N6jcs` |
-| A Different System is Not an Alternative | 2026-06-26 | `StoD2LAncqDF` |
-| Order doesn't begin with command | 2026-05-06 | `StpBWHATsOGJ` |
-| On white-supremacist COVID-eugenicist queers | 2025-09-25 | `SttSLVlwiEUJ` |
-| A Storm Is A Storm Is A Storm | 2025-09-23 | `SttV2jq0eZlF` |
-| Storytelling [Stop] Cop City | 2025-09-16 | `SttcnmRazaRs` |
-| Citing for Containment | 2025-04-14 | `StwbcaKiaJPF` |
-| Governing By Confusion | 2025-04-12 | `StwdTAXK5BMg` |
-| The Theory That Survived The War | 2025-04-08 | `StwiDjpdsVDw` |
-| Marked Speech, Borrowed Grammar | 2025-04-06 | `Stwl1tx7fH07` |
-| Signalgate Caused Signalgate | 2025-04-01 | `StwrAwKH8XiJ` |
-| When Power Buys Itself | 2025-03-30 | `StwtQx2y_I1N` |
-| Between Care and Control | 2025-03-26 | `StwyRohis6io` |
-| The Network Effect | 2025-03-16 | `Stx9bZWApqfg` |
-| The Financialization of Persuasion | 2025-03-10 | `StxGpfv2uTco` |
-| Historical Parallels on Trump’s Call for Emergenc… (truncated in source) | 2025-03-08 | `StxJYIxCzKaF` |
-| Radical Is As Radical Imagines | 2025-03-07 | `StxKbjbxLrtw` |
-| Solidarity Erased | 2024-12-11 | `Styz3AE2puwV` |
-| Looking for Homes, Old and New | 2024-12-09 | `Stz1O1ZeaCh3` |
-| The Nervous Ally | 2024-12-09 | `Stz0f77SA9HV` |
-| Now Streaming | 2024-07-18 | `Su0m_FWYGnyB` |
-| Moving to Lakota Territory | 2024-02-26 | `Su3X9CuCwJnw` |
-| A Broken Election | 2023-12-08 | `Su53NZaAdwU7` |
-| Alfredo Bonanno has passed | 2023-12-08 | `Su54--vs6Qcg` |
-| Call to Act! Against Asteria | 2023-12-08 | `Su53H4n2wNWk` |
-| Getting Better | 2023-12-03 | `Su5A4c2ixMq-` |
-| Unmasking the Delusion of COVID Risk Assessment | 2023-11-30 | `Su5Cx--1vm4F` |
-| Winter Orientation | 2023-11-15 | `Su5VZjoHH-fZ` |
-| "Anarchism must not be criminalized" | 2023-11-10 | `Su5aknVXgCXF` |
-| Fall arrives | 2023-11-01 | `Su5m3Y6msigk` |
-| Birds Blow Where Winds Blow | 2023-09-14 | `Su6gx0ApYuYV` |
-| Brief Update & Resharing Letters | 2023-09-05 | `Su6s-N2wxqms` |
-| Landrace Philosophy with InfoPonEmacs | 2023-09-05 | `Su6s-LmTgsgV` |
-| COVID Broke America | 2021-09-19 | `SuKaYrxC63Uw` |
-| Breaking illusions with math | 2021-02-27 | `SuOWUgKd0AF3` |
-| Weekend research: ETFs | 2021-02-14 | `SuOmA-lXwLyN` |
-| Morning updates, February 12th, 2021 | 2021-02-13 | `SuOmfsOVBP0c` |
-| Green green | 2021-02-12 | `SuOoc9vRqGHF` |
-| Look at the markets, Feb 11th, 2021 | 2021-02-12 | `SuOnuQxgtjJZ` |
-| Ledgers as a means of hearing past Iktomi's songs | 2021-02-11 | `SuOph0WyLoOB` |
-| I'm out to get | 2021-02-10 | `SuOqvaNcZSUB` |
-| A shift in praxis, but not purpose | 2021-02-08 | `SuOsMFnMfxQs` |
-| Welcome to the New Year | 2021-01-06 | `SuPWEP8taL--` |
-| False Profits | 2020-12-06 | `SuQ65JgdW5D7` |
-| Thanksgiving | 2020-11-24 | `SuQKfUIYC2Dg` |
-| Of ducks and illusions | 2020-11-17 | `SuQTixuzL5o7` |
-| On decolonizing my Web use | 2020-10-31 | `SuQoGLarNCQw` |
-| I touched a nerve | 2020-10-29 | `SuQpquAGoBFc` |
-| Y'all've a week | 2020-10-28 | `SuQrHXQJlZEV` |
-| Regarding Settlerday | 2020-10-26 | `SuQtjlqf6KMZ` |
-| The RIAA isn't our biggest threat | 2020-10-26 | `SuQtn2S0amlN` |
-| Settlerday, October 24, 2020 | 2020-10-25 | `SuQuoYNVpNVB` |
-| HashUp: Semantic plaintext markup | 2020-10-24 | `SuQwF4De51Tw` |
-
-**Important corrections:** *The Theory That Survived The War* and *The Nervous Ally* **were published**, based on 2025 and 2024 Substack provider receipts respectively; they must not re-enter the unpublished draft queue. *The Gray Completion* and *What Does It Mean to Believe in Time?* **were not published**, as explicitly corrected by emsenn and supported by the latter's release record. The absence of these two titles from this limited email search is not the basis of that judgment.
+The recorded public pages are three of the 53 rows, **not
+additional posts**. *The Theory That Survived The War* and *The Nervous Ally*
+are evidenced as previously published, while *The Gray Completion* and
+*What Does It Mean to Believe in Time?* have explicitly corrected
+**NOT PUBLISHED** states and are absent from these provider records. Absence
+from the sampled mail search alone does not determine anyone's publication state.
 
 ## Letter-to-the-Web release-ready catalog
 
