@@ -38,7 +38,7 @@ An author's historical essay of **unverified creation date** was recovered from 
 
 ### Other older prose and topics
 
-An older document named `Draft, Meaningless Labor and Confusion as Crisis Deferral.md` exists in `emsenn/content:triage/old-notes/zeds/doc/post/emsenn/Kolektiva/`. Its historical filename does not establish an *active Substack draft*. **Meaningless labor** is also an open research topic and is not constrained to one essay. Do not populate a publication queue from evocative research topics.
+An older document named `Draft, Meaningless Labor and Confusion as Crisis Deferral.md` exists in `emsenn/content:triage/old-notes/zeds/doc/post/emsenn/Kolektiva/`. Its historical filename does not establish an *active Substack draft*. **Meaningless labor** is also an open research topic and is not constrained to one essay; the separately versioned [Lenticule scientific working paper on work visibility and decision deferral](https://github.com/lenticule-science/science-services-section/blob/main/services/social-science-services-section/services/social-theory-science-services-section/content/text/documents/articles/notes/2026/10/12/2026-10-12-work-visibility-and-institutional-decision-deferral.md) is a research output, not an edition or rewrite of that archived personal prose. Do not populate a publication queue from evocative research topics.
 
 ## Provider-evidenced published editions (partial account inventory)
 
