@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 const root = new URL('../', import.meta.url);
 const read = (path) => readFileSync(new URL(path, root), 'utf8');
@@ -83,4 +83,21 @@ test('the two author-corrected unpublished titles cannot reenter published rows'
     assert.ok(!entries.some(x => x.title.toLowerCase() === title.toLowerCase()),
       'unpublished work misclassified as a published edition: ' + title);
   }
+});
+
+test('historical setup records are archived without changing their original Git bytes', () => {
+  const files = [
+    ['decision-records/name-the-emsweb-substack-node-and-authorize-its-remote.json', 'e8844f14a218d682b92d8ca134ed957d6fea725f'],
+    ['requirements/stand-up-my-substack-as-a-service-under-emsweb.json', '1d32973a804b0b4bbe984b88d6eb4ac981205810'],
+    ['tasks/realize-the-substack-node-under-emsweb.json', '7f2a58decc5d2fd73a582434c76ab70d80fe2e9d'],
+    ['work-items/stand-up-the-substack-node.json', '99822134b74fa30589fd1bc2393191bbc6c54a9c'],
+  ];
+  for (const [relative, expected] of files) {
+    assert.equal(existsSync(new URL('content/' + relative, root)), false, 'obsolete setup record still appears active');
+    const raw = bytes('archive/formation/' + relative);
+    const actual = createHash('sha1').update('blob ' + raw.byteLength + '\0').update(raw).digest('hex');
+    assert.equal(actual, expected, 'historical setup record changed: ' + relative);
+  }
+  const archiveReadme = read('archive/formation/README.md');
+  assert.match(archiveReadme, /not an active editorial, science, release or deployment queue/);
 });
