@@ -1,46 +1,62 @@
-# Substack publication ledger — reconciled claims
+# Substack publication and editorial custody
 
-Owner: `emsenn/substack` (private), under `emsenn/emsweb`.
-Last reconciled: 2026-10-12.
-**This is a partial ledger, not a census of all posts or manuscript versions.**
+**Owner:** `emsenn/substack` (mounted by `emsenn/emsweb/services/substack`).  
+**Reconciled:** 2026-10-12. This is an evidence-bounded view, **not a complete Substack account export**.
 
-## Publication-state policy
+## Rules for interpreting this record
 
-A topic, an authored manuscript, and a published edition are separate resources. **A publication claim must identify a specific edition and carry an observable release receipt** (the real public URL and publication date, a Substack record, or a direct contemporaneous author report). Missing GitHub files never imply a work is a draft; topic names never imply a manuscript exists. A publication claim without a receipt is **unverified**, not published. A direct author correction of publication state supersedes earlier assistant inferences. Preserve that correction as evidence; do not silently reassert the disproven status.
+A **scientific topic**, a **scientific research artifact**, an **author's manuscript**, a **release-ready manuscript**, an **authorized publication action**, and a **published edition** are distinct resources. One title can name more than one. Their states do not propagate by coincidence of title.
 
-Every edition's state is scoped to a **particular artifact/version on a particular platform**. A research theme may share its title but does not inherit that edition's state. Platform draft state is distinct from a locally edited manuscript.
+A **published edition** requires evidence of the *particular* edition's public release: a real public Substack URL and publication date or another authenticated platform release receipt. A draft in a GitHub or Drive folder, a planned cadence, a release-ready record, an authoring file, or an assistant's recollection **does not establish publication**. Nor does absence from a repository establish non-publication. The user's explicit correction is authoritative when an assistant made an ungrounded status claim.
 
-## Explicitly **not published** on Substack (author correction 2026-10-12)
+An **author's permission to publish** and **proof of actual publication** are also separate. No release in this ledger is authorized by its mere presence. This ledger and all imported manuscripts are **private working custody**, not release commands.
 
-| Title/reference | Correct status | Manuscript/version custody |
+## Not published — the author's correction is controlling
+
+| Work | What actually exists | Release conclusion |
 | --- | --- | --- |
-| **The Gray Completion** | **NOT PUBLISHED**. Research-topic title; no published Substack edition attested | Locate any authored manuscript separately; cannot claim one exists merely from this title |
-| **What Does It Mean to Believe in Time?** | **NOT PUBLISHED**. Research-topic title; no published Substack edition attested | Locate any authored manuscript separately; cannot claim one exists merely from this title |
+| **The Gray Completion** | An older authored essay at [`content/manuscripts/archive/2026-07-10-the-gray-completion-essay.md`](manuscripts/archive/2026-07-10-the-gray-completion-essay.md); also a **different**, separately authored *working research article* titled *The Gray Completion: Place, Time, and Language Models as State-Realizers of Governance* in the Library | **NOT PUBLISHED.** An essay copy is an archived draft; a separate scientific paper is a research article, not a newsletter edition |
+| **What Does It Mean to Believe in Time?** | Complete [September 30 manuscript](manuscripts/release-ready/2026-09-30-what-does-it-mean-to-believe-in-time.md) and a separate [release record](releases/unpublished/2026-09-30-what-does-it-mean-to-believe-in-time.release.md) | **NOT PUBLISHED**; editorially **release-ready**, publication-authorized **false**, publication **not performed** |
 
-**Correction of erroneous commit `d899833bc7c03a995a56b4310c8db899421cb9c7`:** the previous edition of this ledger falsely stated that emsenn explicitly confirmed these two titles as *published* on 2026-09-29. That assertion was unfounded and is withdrawn. emsenn explicitly corrected the publication state on **2026-10-12**. The record must never be used as publication evidence. No Substack permalink, publishing timestamp, publication receipt, or exact authored manuscript has been verified for either title here.
+The September 30 manuscript is attributed to emsenn, subtitled *Vine Deloria Jr. and the politics of where authority lives*. Its source bytes (Library `/letter-to-web/release-ready/2026-09-30-what-does-it-mean-to-believe-in-time.md`) are identified by SHA-256 `a26588c36d76b044b3d9f3f47037e2964242354a947cafce13a3416bdf790b3d`. The older release record says repository synchronization was incomplete **at that time**; on 2026-10-12 its text and manuscript were actually received in this GitHub repository. Do not rewrite the historical record to claim it was synchronized earlier.
 
-## Substack pages with observed published editions
+The Gray Completion essay originally existed in the Library as `the-gray-completion-essay.md` (2026-07-10); its separate `the-gray-completion.md` is a working **scientific article** proposed for *Environment and Planning D: Society and Space*. Do not put that article here, relabel it an essay, or treat the essay as evidence of scientific acceptance.
 
-These are **distinct existing Substack posts**, not evidence that other similarly titled work has been released.
+**Explicit correction:** On 2026-10-12 emsenn stated that neither title is published. Earlier assistant commit `d899833bc7c03a995a56b4310c8db899421cb9c7` falsely asserted both were author-confirmed published on 2026-09-29. That statement has **no supporting publication receipt and is retracted**. Treat the 2026-10-12 correction and source release record as the surviving reading, regardless of prior assistant language.
 
-| Title | Observed date | URL | Evidence |
+## Review manuscripts — not scheduled or published
+
+### Lochiel
+
+A *new private review manuscript*, [**Lochiel after Grandmother — Draft for review**](https://docs.google.com/document/d/1_USYPlxTYAPSb8lp5erlCrHtdaxpLXOcd8H_vp_b380/edit), was modified October 5, 2026. Its corresponding [**Lochiel newsletter review notes**](https://docs.google.com/document/d/1Gv9mKnG4oyhjgq5rCCWipmTUGLwVoJoUE9mxZRxAnTA/edit) expressly state: not a recovered native Substack draft; **not published or scheduled**; first-person framing/title await emsenn's editorial decision. The earlier, separate [**Lochiel and the history carried by the border — emsenn review draft**](https://docs.google.com/document/d/1A4oaEZ18MRCyfgttUqyDEtS_0K5HwEmJd0oKJSk_bkU/edit) is a prior review version, **not** an independent queued publication.
+
+**Open source checks for the newer review candidate:** the introduction and later removal passage omit the October 5 day/date; a Jackson report's specific date is omitted; the year of a Gadsden railroad letter is omitted; and a newspaper date is omitted. Fix from grounded sources, not guesses; preserve voice and do not infer author approval. Editorial defects are tracked at [`content/reviews/2026-10-12-lochiel.md`](reviews/2026-10-12-lochiel.md).
+
+### The Black Hills Were Not for Sale
+
+An author's historical essay was recovered from the Library (`the_black_hills_were_not_for_sale.md`) and received unchanged in [`content/manuscripts/review/2026-06-25-the-black-hills-were-not-for-sale.md`](manuscripts/review/2026-06-25-the-black-hills-were-not-for-sale.md). **Review text only**: no publication authorization, platform draft receipt, or published edition is established here. It may be the “history piece” referenced in conversation, but that identification is not independently confirmed. Treat its historiography and supporting research as separate from its personal-essay composition.
+
+### Other older prose and topics
+
+An older document named `Draft, Meaningless Labor and Confusion as Crisis Deferral.md` exists in `emsenn/content:triage/old-notes/zeds/doc/post/emsenn/Kolektiva/`. Its historical filename does not establish an *active Substack draft*. **Meaningless labor** is also an open research topic and is not constrained to one essay. Do not populate a publication queue from evocative research topics.
+
+## Public editions (verified/previously recorded, partial)
+
+| Title | Observed published date | Public link | Confidence |
 | --- | --- | --- | --- |
-| A Different System is Not an Alternative | 2026-06-25 | https://emsenn.substack.com/p/a-different-system-is-not-an-alternative | Public article URL and dated article page observed 2026-10-12 |
-| Of ducks and illusions | 2020-11-16 (date previously recorded, not rechecked this audit) | https://emsenn.substack.com/p/of-ducks-and-illusions | Public article URL and page observed 2026-10-12 |
-| On decolonizing my Web use | 2020-10-30 (earlier ledger) | https://emsenn.substack.com/p/on-decolonizing-my-web-use | URL recorded in earlier ledger; live page not independently retrievable in 2026-10-12 check; **reverify**, do not infer deletion or non-publication |
+| A Different System is Not an Alternative | 2026-06-25 | https://emsenn.substack.com/p/a-different-system-is-not-an-alternative | Public article previously verified |
+| Of ducks and illusions | 2020-11-16 | https://emsenn.substack.com/p/of-ducks-and-illusions | Public article previously verified |
+| On decolonizing my Web use | 2020-10-30 (earlier ledger; date needs recheck) | https://emsenn.substack.com/p/on-decolonizing-my-web-use | Earlier ledger; reverify public visibility and date |
 
-This table is *incomplete*, and the date/evidence qualifications are deliberate.
+These three are **not** evidence that any of the works above were published. This is deliberately incomplete; the account itself, not a speculative local reconstruction, controls the complete set of public editions.
 
-## Manuscript-recovery leads, not declared draft status
+## Letter-to-the-Web release-ready catalog
 
-- **Lochiel:** emsenn identified writing needing Substack attention on 2026-10-12. The canonical authored file, exact title, and any Substack draft/release receipt remain unlocated. This is a search lead, not a published or unpublished *edition* record.
-- **The history piece:** likewise a lead identified by emsenn, with its exact identity and original authoring version unlocated.
-- **Meaningless Labor and Confusion as Crisis Deferral:** an old document exists at `emsenn/content:triage/old-notes/zeds/doc/post/emsenn/Kolektiva/Draft, Meaningless Labor and Confusion as Crisis Deferral.md`. Its **historical** “Draft” filename is not evidence of a current Substack draft. Its associated research theme is independent.
+The Library's `/letter-to-web/release-ready/INDEX.md` (2026-10-05) lists **25 release records**, each with its own manuscript and state. It is a **read model**, not the canonical text of each manuscript or a publication mandate; the catalog says `published: false`, `publication-authorized: false`. Its historical copy is not an editor's live platform inventory. Before importing any more, verify individual authoritative release records and avoid recopying the full backlog into yet another unmaintained catalog. The distinct Library `/letter-to-web/CURRENT.md` is a projection, not a competing authoritative state.
 
-## Reconciliation procedure (work not yet complete)
+## Remaining operational reconciliation
 
-1. Inventory live newsletter releases from the authenticated Substack account or public archive, recording **exact** URLs, titles, release timestamps, and when verified.
-2. Independently inventory current authoring manuscripts (including private Substack editor drafts if authorized access exists). Identify each file/version by URI/revision and author. Do not invent manuscript objects.
-3. Reconcile published URLs and manuscripts using proven identities; unresolved matches remain unresolved. Create distinct entries when a revised or reposted edition is actually released.
-4. Identify unanswered writing work and commission optional supporting scientific research from the appropriate scientific domain. **Scientific topics are not themselves editorial queue items.**
-5. On every publication-state change, require the new receipt/evidence, update this ledger, and advance the `emsenn/emsweb` submodule pin. Verify downstream readback.
+1. Obtain authenticated native Substack *published* and *editor-draft* inventories. Native editor draft state cannot be inferred from Drive or GitHub text.
+2. Match a specific edition by real publication receipt, URL, date and version, not only by title. Mark unresolved identities unresolved.
+3. Prioritize the actual Lochiel source/date corrections and the recovered historical essay's review without changing the author's voice or conflating historical research with personal writing.
+4. Record new release receipts and current source revisions here only on evidence. Every GitHub update must be **received** through the `emsenn/emsweb` submodule pin and verified.
