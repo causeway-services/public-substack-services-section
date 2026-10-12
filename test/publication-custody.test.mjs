@@ -36,9 +36,20 @@ test('release-ready is not approval or publication', () => {
 test('corrected titles cannot quietly reappear as published editions', () => {
   const ledger = read('content/publications.md');
   const notPublished = section(ledger, '## Not published', '## Review manuscripts');
-  const published = section(ledger, '## Public editions', '## Letter-to-the-Web');
+  const published = section(ledger, '## Public editions', '## Provider-reported publication evidence');
   for (const title of ['The Gray Completion', 'What Does It Mean to Believe in Time?']) {
     assert.ok(notPublished.includes(title), 'missing author correction: ' + title);
     assert.ok(!published.includes(title), 'wrongly inserted as published edition: ' + title);
   }
+});
+
+test('publisher stats messages are evidence, not invented release dates', () => {
+  const ledger = read('content/publications.md');
+  const receipts = section(ledger, '## Provider-reported publication evidence', '## Letter-to-the-Web release-ready catalog');
+  assert.match(receipts, /The Nervous Ally/);
+  assert.match(receipts, /The Theory That Survived The War/);
+  assert.match(receipts, /on or before the statistics-email date/);
+  assert.match(receipts, /does \*\*not\*\* establish the original publishing day/);
+  const rows = receipts.split('\n').filter((line) => line.startsWith('| ') && /^\| `St/.test(line.split(' | ').at(-1) ?? '') === false);
+  assert.ok(rows.length >= 50, 'expected a substantial provider-stat observation sample');
 });
