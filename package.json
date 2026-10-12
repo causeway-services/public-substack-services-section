@@ -7,5 +7,9 @@
   "license": "UNLICENSED",
   "keywords": [
     "sovereign-state-enterprise"
-  ]
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "verify": "npm test"
+  }
 }
