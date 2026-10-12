@@ -34,7 +34,7 @@ A *new private review manuscript*, [**Lochiel after Grandmother — Draft for re
 
 ### The Black Hills Were Not for Sale
 
-An author's historical essay was recovered from the Library (`the_black_hills_were_not_for_sale.md`) and received unchanged in [`content/manuscripts/review/2026-06-25-the-black-hills-were-not-for-sale.md`](manuscripts/review/2026-06-25-the-black-hills-were-not-for-sale.md). **Review text only**: no publication authorization, platform draft receipt, or published edition is established here. It may be the “history piece” referenced in conversation, but that identification is not independently confirmed. Treat its historiography and supporting research as separate from its personal-essay composition.
+An author's historical essay of **unverified creation date** was recovered from the Library (`the_black_hills_were_not_for_sale.md`) and received unchanged in [`content/manuscripts/review/the-black-hills-were-not-for-sale.md`](manuscripts/review/2026-06-25-the-black-hills-were-not-for-sale.md). **Review text only**: a formerly assumed June 25 file-date was removed as unsupported by the source; no publication authorization, platform draft receipt, or published edition is established here. It may be the “history piece” referenced in conversation, but that identification is not independently confirmed. Treat its historiography and supporting research as separate from its personal-essay composition.
 
 ### Other older prose and topics
 
