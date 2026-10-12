@@ -2,7 +2,7 @@
 
 This is an **independent, private repository** for emsenn’s newsletter service, currently named `emsenn/substack` and packaged as `@emsweb/substack`. It is mounted by `emsenn/emsweb` at `services/substack`. The public publication is [emsenn’s letters to the Web](https://emsenn.substack.com/). Keeping the existing, connected repository avoids making a second, competing Substack service.
 
-The JSON records in `content/decision-records/`, `content/requirements/`, `content/tasks/`, and `content/work-items/` are **July 2026 formation/provenance records**, not an active editorial queue. In particular, an old `status: proposed` in a formation decision must not be read as evidence that the now-existing private repository, package, or emsweb submodule is imaginary or that current published letters are drafts. Preserve the historical record; use the actual repositories and verified publication ledger for present status.
+July 2026 service-formation decisions, requirements, tasks, and work-items are preserved byte-for-byte under [`archive/formation/`](archive/formation/README.md), **not** as active publishing work. Their original proposal/requirement states concern standing up a now-existing service and must not be used to infer the status of manuscripts or releases. The live [publication ledger](content/publications.md) and separately identified author manuscripts control current publishing status.
 
 ## What this service owns
 
