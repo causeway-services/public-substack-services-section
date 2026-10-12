@@ -50,7 +50,7 @@ test('publisher stats messages are evidence, not invented release dates', () => 
   assert.match(receipts, /The Theory That Survived The War/);
   assert.match(receipts, /on or before the statistics-email date/);
   assert.match(receipts, /does \*\*not\*\* establish the original publishing day/);
-  const ids = [...receipts.matchAll(/\|\s*`(St[a-zA-Z0-9_-]+)`\s*\|/g)].map((match) => match[1]);
+  const ids = [...receipts.matchAll(/\|\s*`(S[tu][a-zA-Z0-9_-]+)`\s*\|/g)].map((match) => match[1]);
   assert.ok(ids.length >= 50, 'expected a substantial provider-stat observation sample');
   assert.equal(new Set(ids).size, ids.length, 'duplicate provider-message identity');
 });
