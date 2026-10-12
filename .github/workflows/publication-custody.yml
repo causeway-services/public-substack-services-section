@@ -1,20 +1,18 @@
-name: Substack publication custody
+name: Substack source and publication quality
 
 on:
   push:
     branches: [main]
     paths:
-      - content/publications.md
-      - content/manuscripts/**
-      - content/releases/**
+      - README.md
+      - content/**
       - test/**
       - package.json
       - .github/workflows/publication-custody.yml
   pull_request:
     paths:
-      - content/publications.md
-      - content/manuscripts/**
-      - content/releases/**
+      - README.md
+      - content/**
       - test/**
       - package.json
       - .github/workflows/publication-custody.yml
@@ -23,12 +21,11 @@ permissions:
   contents: read
 
 jobs:
-  verify:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Verify publication and manuscript custody
-        run: npm test
+  publication-tests:
+    uses: red-cup-engineering/continuous-delivery-services-section/.github/workflows/node-package.yml@e186963c8a4b9cfe5a90e5e33c3e6e30f56cc282
+    with:
+      paths: '["."]'
+  source-references:
+    uses: red-cup-engineering/continuous-delivery-services-section/.github/workflows/content.yml@e186963c8a4b9cfe5a90e5e33c3e6e30f56cc282
+    with:
+      links: true
