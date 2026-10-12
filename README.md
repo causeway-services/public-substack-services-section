@@ -19,6 +19,14 @@ Do not use this repository as the authority for scientific conclusions, proof st
 
 These are related through explicit references, **not** by forcing a one-to-one mapping or by rewriting research to sound literary (or writing to sound like research). A published letter may later generate a new research question. No retroactive reclassification.
 
+## Authorial voice and platform affect (reuse the existing capability)
+
+The author's actual voice belongs to the personal writing library, **not** to Lenticule's scientific-paper methods and **not** to a new Substack-specific imitation engine. The existing source is [`write-in-voice-of-emsenn`](https://github.com/emsenn/content/blob/main/personal/skills/write-in-voice-of-emsenn/SKILL.md), informed by [observed voice notes](https://github.com/emsenn/content/blob/main/personal/writing/style/voice-notes.md) and the [polemic register](https://github.com/emsenn/content/blob/main/personal/writing/style/polemic-register.md). Those are **existing author-owned resources**; this service points to them rather than forking them into another skill.
+
+The distinction between platform feeling rules and author voice is substantive. The original [feeling-rules concept](https://github.com/emsenn/content/blob/main/sociology/terms/feeling-rules.md) treats genre and platform expectations as normative constraints that can distort what may be said. A Substack edition should **study** those expectations and make deliberate editorial choices; it must not automatically conform the author's analysis to manufactured grief, hope, outrage, closure or a generic engagement arc. This author specifically rejects persuasion-through-affect as a substitute for demonstrating the material object. Newsletter affordances (email subject, excerpts, links, distribution, subscriber relation) are distinct parameters from voice and scientific evidence.
+
+**Execution boundary:** scientific or historical findings are separately produced/reviewed by their scientific domain; this service receives only the particular claims the author elects to use and the actual working manuscript. The authorial writing skill may help with composition but **does not confer author approval**. The Substack platform may independently publish an approved edition, after which this service receives the real permalink/date/content receipt. **No scientific paper is required for every personal letter**, and no personal letter becomes a scientific paper by being backed by source citations.
+
 ## Operating practice
 
 1. Reconcile actual releases with the newsletter and author before classifying old files. Do not infer publication state from filenames like `draft`, from a missing local copy, or from an article title that also names a research theme.
