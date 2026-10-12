@@ -36,6 +36,14 @@ The distinction between platform feeling rules and author voice is substantive. 
 5. Let the author determine voice and composition. Editing for Substack may change pacing and framing but does not silently strengthen scientific assertions; scholarly writing is not normalized to a platform style.
 6. After publication, reconcile the published version and permalink back here. Corrections affect the edition record; they do not edit an upstream scientific result by implication.
 
+## Verification and operational receiving
+
+Run `npm test` for publication evidence, exact received manuscript hashes and the original Git identities of the archived formation records. GitHub's `publication-custody.yml` **hires** Red Cup's reusable Node and content-check workflows rather than maintaining a separate CI engine.
+
+**Current hosted-state caveat (2026-10-12):** GitHub Actions [issue #1](https://github.com/emsenn/substack/issues/1) records repeated hosted workflow failures **before runner assignment** (`runner_name` empty, `steps: []`, zero billable runner milliseconds). A GitHub commit or a successful direct file/AST assertion is *not* a green GitHub Actions run. Actual hosted CI remains **blocked/unverified** until a job executes on a runner and its checks pass; do not hide this by reporting direct assertions as CI success.
+
+`emsenn/emsweb` is the downstream consumer. A child commit is **not received** by the parent merely because it exists on `main`. The parent must pin the child's exact commit at `services/substack`; verify both object IDs after each accepted source change. Neither a parent gitlink update nor a published-edition ledger entry performs a Substack platform release.
+
 ## Structural direction
 
 `lenticule-science/science-services-section` and its domain services **produce or revise science**. `coesite-operations/operations-services-section/services/research-operations-services-section` **offers reusable research execution** to whichever office commissions it. `emsenn/substack` **owns emsenn’s newsletter editions and publication accounting**. `emsenn/emsweb` consumes this independently versioned service as a submodule.
