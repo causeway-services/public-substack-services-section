@@ -1,0 +1,34 @@
+name: Substack publication custody
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - content/publications.md
+      - content/manuscripts/**
+      - content/releases/**
+      - test/**
+      - package.json
+      - .github/workflows/publication-custody.yml
+  pull_request:
+    paths:
+      - content/publications.md
+      - content/manuscripts/**
+      - content/releases/**
+      - test/**
+      - package.json
+      - .github/workflows/publication-custody.yml
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify publication and manuscript custody
+        run: npm test
