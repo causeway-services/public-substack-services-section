@@ -1,0 +1,31 @@
+name: Substack source and publication quality
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - content/**
+      - test/**
+      - package.json
+      - .github/workflows/publication-custody.yml
+  pull_request:
+    paths:
+      - README.md
+      - content/**
+      - test/**
+      - package.json
+      - .github/workflows/publication-custody.yml
+
+permissions:
+  contents: read
+
+jobs:
+  publication-tests:
+    uses: red-cup-engineering/continuous-delivery-services-section/.github/workflows/node-package.yml@e186963c8a4b9cfe5a90e5e33c3e6e30f56cc282
+    with:
+      paths: '["."]'
+  source-references:
+    uses: red-cup-engineering/continuous-delivery-services-section/.github/workflows/content.yml@e186963c8a4b9cfe5a90e5e33c3e6e30f56cc282
+    with:
+      links: true
