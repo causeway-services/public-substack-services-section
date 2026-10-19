@@ -1,0 +1,51 @@
+{
+  "id": "stand-up-my-substack-as-a-service-under-emsweb",
+  "name": "stand up my substack as a service under emsweb (node basename provisional: substack)",
+  "kind": "requirement",
+  "raised-by": "emsenn",
+  "asks": "In this session our goal is to get encoded in our emerging systems some of our actual shit that we do like our real world micro-enterprises. The first one I want us to stand up is my substack, as a service under emsweb under the RSC Quiescent. BUT this is our first time doing anything like this, with these tools you have. So we have to think carefully about how we're doing it, watch as we do it so we see where the processes are fucking us up and are themselves wrong.",
+  "met-when": [
+    {
+      "cell": "idea:source-resolves",
+      "target": "held",
+      "command": "bash -c 'test -f lib/emsenn/services/561-group/services/board-of-directors/services/executive-office/content/ideas/stand-up-my-substack-as-a-service-under-emsweb.json && jq -e . lib/emsenn/services/561-group/services/board-of-directors/services/executive-office/content/ideas/stand-up-my-substack-as-a-service-under-emsweb.json >/dev/null'",
+      "expected-exit": 0
+    },
+    {
+      "cell": "node:submodule-tracked-at-160000",
+      "target": "held",
+      "command": "bash -c 'line=$(git ls-files -s lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/substack); case \"$line\" in 160000*) exit 0 ;; *) exit 1 ;; esac'",
+      "expected-exit": 0
+    },
+    {
+      "cell": "node:gitmodules-entry-present",
+      "target": "held",
+      "command": "grep -qF \"path = lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/substack\" .gitmodules",
+      "expected-exit": 0
+    },
+    {
+      "cell": "node:package-manifest-shape",
+      "target": "held",
+      "command": "bash -c 'test -f lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/substack/package.json && jq -e \".name==\\\"@emsweb/substack\\\" and .private==true and .type==\\\"module\\\"\" lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/substack/package.json >/dev/null'",
+      "expected-exit": 0
+    },
+    {
+      "cell": "node:has-a-commit",
+      "target": "held",
+      "command": "git -C lib/emsenn/services/561-group/services/rsc-quiescent/services/emsweb/services/substack log -1 --format=%H",
+      "expected-exit": 0
+    },
+    {
+      "cell": "node:remote-is-private",
+      "target": "held",
+      "command": "bash -c 'test \"$(gh repo view emsenn/substack --json isPrivate -q .isPrivate 2>/dev/null)\" = \"true\"'",
+      "expected-exit": 0
+    }
+  ],
+  "tier": "major",
+  "from-idea": "emsenn/idea/stand-up-my-substack-as-a-service-under-emsweb",
+  "x-provenance": {
+    "recorded-by": "requirements-management-team",
+    "recorded-on": "2026-07-16"
+  }
+}
