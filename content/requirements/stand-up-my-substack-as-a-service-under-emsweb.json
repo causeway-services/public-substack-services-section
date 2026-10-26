@@ -8,19 +8,19 @@
     {
       "cell": "idea:source-resolves",
       "target": "held",
-      "command": "bash -c 'test -f lib/emsenn/services/561-group/services/board-of-directors/services/executive-office/content/ideas/stand-up-my-substack-as-a-service-under-emsweb.json && jq -e . lib/emsenn/services/561-group/services/board-of-directors/services/executive-office/content/ideas/stand-up-my-substack-as-a-service-under-emsweb.json >/dev/null'",
+      "command": "bash -c 'test -f services/board-of-directors/services/executive-office/content/ideas/stand-up-my-substack-as-a-service-under-emsweb.json && jq -e . services/board-of-directors/services/executive-office/content/ideas/stand-up-my-substack-as-a-service-under-emsweb.json >/dev/null'",
       "expected-exit": 0
     },
     {
       "cell": "node:package-manifest-shape",
       "target": "held",
-      "command": "bash -c 'test -f lib/emsenn/services/561-group/services/public-services-section/services/personal-services-section/emsenn-services-section/services/emsenn-web-services-section/services/substack/package.json && jq -e \".name==\\\"@emsenn/substack\\\" and .private==true and .type==\\\"module\\\"\" lib/emsenn/services/561-group/services/public-services-section/services/personal-services-section/emsenn-services-section/services/emsenn-web-services-section/services/substack/package.json >/dev/null'",
+      "command": "bash -c 'test -f services/public-services-section/services/personal-services-section/emsenn-services-section/services/emsenn-web-services-section/services/substack/package.json && jq -e \".name==\\\"@emsenn/substack\\\" and .private==true and .type==\\\"module\\\"\" services/public-services-section/services/personal-services-section/emsenn-services-section/services/emsenn-web-services-section/services/substack/package.json >/dev/null'",
       "expected-exit": 0
     },
     {
       "cell": "node:has-a-commit",
       "target": "held",
-      "command": "git -C lib/emsenn/services/561-group/services/public-services-section/services/personal-services-section/emsenn-services-section/services/emsenn-web-services-section/services/substack log -1 --format=%H",
+      "command": "git -C services/public-services-section/services/personal-services-section/emsenn-services-section/services/emsenn-web-services-section/services/substack log -1 --format=%H",
       "expected-exit": 0
     },
     {
