@@ -2,7 +2,7 @@
 > [`red-cup-engineering/substack`](https://github.com/red-cup-engineering/substack), which reads this data
 > (point it here with `SECTION_DATA_ROOT`, default current working directory). This repository holds data only.
 
-# substack
+# @causeway-services/public-substack-services-section
 
 <!-- 561-group-standards:badges:start -->
 [![Causeway Services](https://img.shields.io/badge/561%20Group-Causeway%20Services-115e69)](https://github.com/causeway-services)
@@ -10,5 +10,7 @@
 [![Indigenous data: CARE](https://img.shields.io/badge/Indigenous%20data-CARE-4b6f44)](https://github.com/causeway-services/.github/blob/main/GOVERNANCE.md)
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
+
+public-substack-services-section is a services section of the 561 Group.
 
 emsenn's Letters to the Web — letters emsenn writes for the Web, syndicated onto Substack at https://emsenn.substack.com.
