@@ -1,8 +1,0 @@
-{
-  "id": "stand-up-the-substack-node",
-  "name": "run the standing-up-a-node instrument for the substack node under emsweb/services, full stand-up including the private remote, as the requirement stand-up-my-substack-as-a-service-under-emsweb states",
-  "kind": "work-unit",
-  "actions": [
-    "standing-up-a-node"
-  ]
-}
